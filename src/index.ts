@@ -1,0 +1,11 @@
+import express from "express";
+
+const app = express();
+
+app.get("/", (req, res) => {
+    res.send(false);
+});
+
+app.listen(80, () => {
+    console.log(`http://localhost`);
+});
